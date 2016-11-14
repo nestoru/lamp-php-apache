@@ -7,7 +7,7 @@ Clone, build, tag and push
 git clone git@github.com:nestoru/lamp-php-apache.git
 cd lamp-php-apache
 docker build . -t nestoru/lamp-php-apache:0.1
-docker tag lamp-php-apache:0.1 nestoru/lamp-php-apache:0
+docker tag lamp-php-apache:0.1 nestoru/lamp-php-apache:0.1
 docker push nestoru/lamp-php-apache:0.1
 ```
 
