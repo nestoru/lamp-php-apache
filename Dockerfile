@@ -17,5 +17,7 @@ RUN a2dismod mpm_event && \
 
 RUN docker-php-ext-install mysql mysqli pdo pdo_mysql mcrypt soap mssql
 
+RUN usermod -u 1000 www-data
+
 EXPOSE 443
 
